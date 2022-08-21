@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PortalRunner's weekly tournaments</title>
+    <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <video id="bg-video" autoplay loop poster="bg-static.jpg">
+      <source src="bg-loop.mp4" type="video/mp4">
+    </video>
+    <div id="bg-overlay"></div>
+
+    <div id="content">
+
+      <div id="title">
+
+        <div id="lines">
+          <div id="line1"></div>
+          <div id="line2"></div>
+        </div>
+
+        <h1>
+          PortalRunner's weekly tournaments
+          <br><span id="week"></span>
+        </h1>
+
+      </div>
+
+      <div id="leaderboard">
+
+        <!-- automagical content -->
+
+      </div>
+
+      <div id="info">
+        <div class="info-block">
+          <h2 class="info-title" onclick="playVideo(-1)">map</h2>
+          <h2 class="info-description"></h2>
+        </div>
+        <div class="info-block">
+          <h2 class="info-title">style</h2>
+          <h2 class="info-description"></h2>
+        </div>
+        <div class="info-block">
+          <h2 class="info-title">times</h2>
+          <h2 class="info-description"></h2>
+        </div>
+        <div class="info-block">
+          <h2 class="info-title">variation</h2>
+          <h2 class="info-description"></h2>
+        </div>
+      </div>
+
+      <div id="runinfo">
+        <h1 id="runinfo-name"></h1>
+        <div id="runinfo-seperator"></div>
+        <h2 id="runinfo-details"></h2>
+      </div>
+
+    </div>
+
+  </body>
+</html>

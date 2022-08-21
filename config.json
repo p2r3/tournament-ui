@@ -1,0 +1,61 @@
+{
+  "config": {
+    "index": ["main", "lp", "tas", "meme", "ppnf"],
+    "week": "hiatus",
+    "map": "Speed Tests",
+    "style": "short",
+    "broll": "broll.mp4"
+  },
+  "categories": {
+    "main": {
+      "coop": false,
+      "category": "main category",
+      "times": "9 runs submitted",
+      "variation": "34 second difference",
+      "players": ["Throw", "Suola", "shred", "MCKight", "Fridge", "FatPerson115", "Rubix", "BetaMaster", "BlubTen3"],
+      "time": ["30.200", "32.300", "36.500", "36.900", "44.700", "48.700", "50.700", "57.500", "1:03.800"],
+      "comments": ["stupidest run ever, lost like 1 sec on end to bonk", "", "", "", "", "", "❤️", "is it fast? no. is it cool? hell yea dude", "ok"],
+      "videos": ["Throw-main-30_200.dem", "Suola-main-32_300.dem", "shred-main-36_500.dem", "MCKight-main-36_900.dem", "Fridge-main-44_700.dem", "FatPerson115-main-48_700.dem", "Rubix-main-50_700.dem", "BetaMaster-main-57_500.dem", "BlubTen3-main-1_03_800.dem"]
+    },
+    "lp": {
+      "coop": false,
+      "category": "least portals",
+      "times": "3 runs submitted",
+      "variation": "62 second difference<br>2 portal difference",
+      "players": ["Rubix", "BetaMaster", "Leve"],
+      "time": ["1:47.100<br>portals: 4", "2:39.900<br>portals: 4", "1:37.600<br>portals: 6"],
+      "comments": ["uvweweweweinieweweweweubimubimosas", "uvweweweweinieweweweweubimubimosas", ""],
+      "videos": ["Rubix-lp-1_47_100.dem", "BetaMaster-lp-2_39_900.dem", "Leve-lp-1_37_600.dem"]
+    },
+    "tas": {
+      "coop": false,
+      "category": "tool assisted speedrun",
+      "times": "2 runs submitted",
+      "variation": "3 second difference",
+      "players": ["lucasskywalker", "dustyhobo"],
+      "time": ["25.400", "28.700"],
+      "comments": ["kinda bad", "\"TASPain: Death by a thousand inconsistencies\" - Sun Tzu"],
+      "videos": ["lucasskywalker-tas-25_400.dem", "dustyhobo-tas-28_700.dem"]
+    },
+    "meme": {
+      "coop": false,
+      "category": "meme",
+      "times": "2 runs submitted",
+      "variation": "102 second difference",
+      "players": ["BlubTen3", "BetaMaster"],
+      "time": ["38.800", "2:20.700"],
+      "comments": ["SMO% haha capturing go brrrrrr", "SLA 3 portals. SAR lphud wasn't cooperating with demos so as a replacement you get the C.U.M (Cool lphUd replaceMent)"],
+      "videos": ["BlubTen3-meme-38_800.dem", "BetaMaster-meme.mp4"]
+    },
+    "ppnf": {
+      "coop": false,
+      "category": "portal placement never fail",
+      "times": "5 runs submitted",
+      "variation": "22 second difference",
+      "players": ["Suola", "rudko", "BetaMaster", "Rubix", "BlubTen3"],
+      "time": ["02.800", "07.100", "19.800", "21.700", "25.200"],
+      "comments": ["no pre setup now", "surprisingly map has an original route", "how he get 2????", "how he get 2????", "bad run"],
+      "videos": ["Suola-ppnf-02_800.dem", "rudko-ppnf-07_100.dem", "BetaMaster-ppnf-19_800.dem", "Rubix-ppnf-21_700.dem", "BlubTen3-ppnf-25_200.dem"]
+    }
+  }
+}
